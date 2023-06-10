@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.TambahActivity"
+    android:layout_margin="6dp"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah perpustakaan"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="10pt"
+        />
+
+    <EditText
+        android:id="@+id/et_nama"
+        android:padding="25dp"
+        android:hint="Masukan Nama..."
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/et_alamat"
+        android:padding="25dp"
+        android:hint="Masukan Alamat..."
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/et_foto"
+        android:padding="25dp"
+        android:hint="Masukan Link Foto..."
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/et_koordinat"
+        android:padding="25dp"
+        android:hint="Masukan Lokasi..."
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/et_tentang"
+        android:padding="25dp"
+        android:hint="Masukan Tentang..."
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        />
+
+    <Button
+        android:id="@+id/bt_simpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        android:textColor="@color/black"
+        android:backgroundTint="#00E59F"
+        />
+
+
+</LinearLayout>
